@@ -39,7 +39,7 @@ class Segment_Consumer_ForkCurl extends Segment_QueueConsumer {
     if ($this->host) {
       $host = $this->host;
     } else {
-      $host = "cdp.poder.io";
+      $host = "cat.poder.io";
     }
     $path = "/v1/import";
     $url = $protocol . $host . $path;

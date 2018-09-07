@@ -18,7 +18,7 @@ class Segment_Consumer_Socket extends Segment_QueueConsumer {
     }
 
     if (!isset($options["host"])) {
-      $options["host"] = "cdp.poder.io";
+      $options["host"] = "cat.poder.io";
     }
 
     parent::__construct($secret, $options);
